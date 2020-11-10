@@ -27,7 +27,7 @@ chmod 0755 /var/bigbluebutton/published/presentation
 
 # Create log directory
 mkdir -p /var/log/bigbluebutton/download
-chown tomcat7:tomcat7 /var/log/bigbluebutton/download
+chown bigbluebutton:bigbluebutton /var/log/bigbluebutton/download
 chmod -R go+rw /var/log/bigbluebutton/download/
 
 # Copy python scripts to post_publish directory
